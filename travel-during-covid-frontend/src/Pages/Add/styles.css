@@ -1,0 +1,16 @@
+
+.inputBoxAdmin{
+    margin:1rem auto;
+    display: flex;
+    gap:20px;
+    width: max-content;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+.inputBoxAdmin input{
+    border: 1px black solid;
+}
+.inputBoxAdmin select{
+    border: 1px black solid;
+    text-align: center;
+}

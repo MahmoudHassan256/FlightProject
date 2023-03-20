@@ -1,0 +1,159 @@
+[{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee4f"
+  },
+  "name": "Atlanta",
+  "entry": "Open for vaccinated visitors",
+  "testing": "Not required",
+  "quarantine": "Not required for vaccinated visitors",
+  "restaurants": "Open",
+  "bars": "Open",
+  "masks": " Required in enclosed environments and public transportation.",
+  "document": [
+    "Travel Health Declaration Form",
+    "Health Clearance Form",
+    "Travel Declaration Form",
+    "TALOFAPASS",
+    "Mandatory to all travelers."
+  ]
+},{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee50"
+  },
+  "name": "Washington",
+  "entry": "Open with restrictions for vaccinated visitors",
+  "testing": "Required prior to departure",
+  "quarantine": "Required for vaccinated visitors",
+  "restaurants": "Open with restrictions",
+  "bars": "closed",
+  "masks": "Required in public spaces, enclosed environments and public transportation.",
+  "document": [
+    "Travel Health Declaration Form",
+    "Health Clearance Form",
+    "Travel Declaration Form",
+    "TALOFAPASS",
+    "Mandatory to all travelers."
+  ]
+},{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee51"
+  },
+  "name": "Hong Kong",
+  "entry": "Closed for vaccinated visitors",
+  "testing": "Required prior to departure",
+  "quarantine": "Required for vaccinated visitors",
+  "restaurants": "Open with restrictions",
+  "bars": "Open with restrictions",
+  "masks": "Required on public transportation.",
+  "document": [
+    "Health Declaration Form",
+    "Must be presented upon arrival."
+  ]
+},{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee52"
+  },
+  "name": "London",
+  "entry": "Open for vaccinated visitors",
+  "testing": "Not required",
+  "quarantine": "Not required for vaccinated visitors",
+  "restaurants": "Open",
+  "bars": "Open",
+  "masks": "Recommended in enclosed environments and public transportation.",
+  "document": [
+    "Nothing."
+  ]
+},{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee53"
+  },
+  "name": "Dubai",
+  "entry": "Open for vaccinated visitors",
+  "testing": "Not required",
+  "quarantine": "Not required for vaccinated visitors",
+  "restaurants": "Open",
+  "bars": "Open",
+  "masks": " Required in enclosed environments.",
+  "document": [
+    "Nothing."
+  ]
+},{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee54"
+  },
+  "name": "Barcelona",
+  "entry": "Open for vaccinated visitors",
+  "testing": "Not required",
+  "quarantine": "Not required for vaccinated visitors",
+  "restaurants": "Open",
+  "bars": "Open",
+  "masks": "Required in enclosed environments and public transportation.",
+  "document": [
+    "Health Control Form"
+  ]
+},{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee55"
+  },
+  "name": "Osaka",
+  "entry": "Closed for vaccinated visitors",
+  "testing": "Not required",
+  "quarantine": "Not required for vaccinated visitors",
+  "restaurants": "Open with restrictions",
+  "bars": "Open with restrictions",
+  "masks": "Recommended in public spaces, enclosed environments and public transportation.",
+  "document": [
+    "Quarantine Questionnaire",
+    "Certificate of Testing",
+    "Travel Declaration Form",
+    "My SOS App",
+    "Written Pledge"
+  ]
+},{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee56"
+  },
+  "name": "Riyadh",
+  "entry": "Open for vaccinated visitors",
+  "testing": "Not required",
+  "quarantine": "Not required for vaccinated visitors",
+  "restaurants": "Open",
+  "bars": "Open",
+  "masks": "Recommended in enclosed environments.",
+  "document": [
+    "Tawakkalna app",
+    "Mandatory registration form"
+  ]
+},{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee57"
+  },
+  "name": "Milan",
+  "entry": "Open for vaccinated visitors",
+  "testing": "Not required",
+  "quarantine": "Not required for vaccinated visitors",
+  "restaurants": "Open",
+  "bars": "Open",
+  "masks": " Required in enclosed environments and public transportation.",
+  "document": [
+    "Travel Health Declaration Form",
+    "Health Clearance Form",
+    "Travel Declaration Form",
+    "TALOFAPASS",
+    "Mandatory to all travelers."
+  ]
+},{
+  "_id": {
+    "$oid": "631f09b1b1595d015039ee58"
+  },
+  "name": "Mumbai",
+  "entry": "Open for vaccinated visitors",
+  "testing": "Not required",
+  "quarantine": "Not required for vaccinated visitors",
+  "restaurants": "Open with restrictions",
+  "bars": "Open with restrictions",
+  "masks": "Required in public spaces.",
+  "document": [
+    "Self Declaration form"
+  ]
+}]
