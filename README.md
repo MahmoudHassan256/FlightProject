@@ -1,55 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
+# FlightProject ✈️
 
-<h1>Travel During COVID </h1>
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Build Status](https://img.shields.io/github/workflow/status/MahmoudHassan256/FlightProject/CI)](https://github.com/MahmoudHassan256/FlightProject/actions)
+[![Made with ♥ by Mahmoud Hassan](https://img.shields.io/badge/Made%20with-%E2%99%A5%20by%20Mahmoud%20Hassan-blueviolet)](https://github.com/MahmoudHassan256)
 
-<h2>Project Overview</h2>
+## Overview
 
-<p>The "Travel During COVID" project addresses the challenges posed by the COVID-19 pandemic in the field of air travel and global trips. Our goal was to create a full-stack website that focuses on facilitating flights and travel during this challenging time.</p>
+**FlightProject** is a robust, full-stack platform aimed at transforming how individuals plan and manage travel during challenging times, such as the COVID-19 pandemic. With integrated datasets, modular backend and frontend architecture, and seamless user experience, this project solves real-world problems in the travel industry.
 
-<h2>Technologies Used</h2>
+## Features
 
-<ul>
-  <li><strong>Frontend:</strong> JavaScript, HTML, React.js</li>
-  <li><strong>Backend:</strong> Node.js, Object-Oriented Programming (OOP)</li>
-  <li><strong>Database:</strong> MongoDB</li>
-</ul>
+- 🛫 **Flight Management:** Real-time search, booking, and user authentication.
+- 🦠 **COVID-19 Integration:** Live statistics, travel advisories, and safety protocols.
+- 👨‍💼 **User Profiles:** Secure, personalized travel history and recommendations.
+- 📊 **Intelligent Data Processing:** JSON-based handling for flights, COVID-19 regulations, and user data.
+- 🌐 **Responsive Web Application:** Modern UX/UI tailored for every device.
+- 🔒 **Security Best Practices:** Proper data handling and secure authorization flows.
 
-<h2>Key Features</h2>
+## Tech Stack
 
-<ul>
-  <li>Search and book flights that are available during the pandemic.</li>
-  <li>Recommendations based on price range (Lowest to Highest).</li>
-  <li>Login and register feature with role system (admin and user).</li>
-  <li>Access to information on travel destinations, including lockdown status.</li>
-  <li>Health information for travelers, including vaccination requirements and COVID-19 testing.</li>
-</ul>
+- **Backend:** Node.js, Express  
+  Located in: [`travel-during-covid-backend`](./travel-during-covid-backend)
+- **Frontend:** React.js  
+  Located in: [`travel-during-covid-frontend`](./travel-during-covid-frontend)
+- **Data Sources:** Multiple JSON datasets
+    - [`flights.json`](./flights.json): Flight and travel data
+    - [`covid.json`](./covid.json): COVID-19 stats and rules
+    - [`users.json`](./users.json): User data store
+- **Multimedia:** Demo video – [`welcome to our Website.mp4`](./welcome%20to%20our%20Website.mp4)
 
-<h2>Future Improvements</h2>
+## Demo
 
-<ul>
-  <li>Implement API integration for real-time flight information.</li>
-  <li>Enhance payment system with additional methods like PayPal.</li>
-  <li>Add a feature for client contact messages and reviews.</li>
-</ul>
+Check out a quick introduction:  
+[Watch the demo](./welcome%20to%20our%20Website.mp4)
 
-<h2>Learning Experience</h2>
+## Quickstart
 
-<ul>
-  <li>Starting from scratch and learning HTML, JavaScript, and React.</li>
-  <li>Utilizing online resources like Codecademy, Remedy, and YouTube tutorials.</li>
-  <li>Understanding user and admin functionalities, including cookies and local storage.</li>
-  <li>Managing time constraints and available resources effectively.</li>
-</ul>
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/MahmoudHassan256/FlightProject.git
+    cd FlightProject
+    ```
 
-<p>This project was a valuable learning experience, allowing us to build a functional website from the ground up and gain expertise in various technologies and concepts.</p>
+2. **Install dependencies**
+    ```bash
+    cd travel-during-covid-backend && npm install
+    cd ../travel-during-covid-frontend && npm install
+    ```
 
-<p>Developed by Mahmoud Hassan and Muhammed Sarahni under the guidance of Mr. Loay Mualem.</p>
+3. **Run backend**
+    ```bash
+    cd travel-during-covid-backend
+    npm start
+    ```
 
-</body>
-</html>
+4. **Run frontend**
+    ```bash
+    cd ../travel-during-covid-frontend
+    npm start
+    ```
+
+## Folder Structure
